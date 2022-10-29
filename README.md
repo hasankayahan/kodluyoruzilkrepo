@@ -4,7 +4,7 @@ Kodluyoruz Front - End kapsamında açtığım ilk repoç İçerisinde bir adet 
 
 # Proje görseli
 
-![Görsel](google.com/img.png)
+![Görsel](https://avatars.githubusercontent.com/u/30476529?s=200&v=4)
 
 # Installation
 
