@@ -2,22 +2,14 @@
 import pandas as pd
 import numpy as np
 import pickle
-import joblib
 import matplotlib.pyplot as plt
 from lightgbm import LGBMClassifier
 import lightgbm as lgb
-from sklearn.metrics import accuracy_score, roc_auc_score, confusion_matrix, classification_report, plot_roc_curve
-from sklearn.model_selection import train_test_split, cross_validate
-from sklearn.preprocessing import MinMaxScaler, LabelEncoder, StandardScaler, RobustScaler
+from sklearn.preprocessing import RobustScaler
 from sklearn.decomposition import PCA
-from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import GridSearchCV, cross_validate
-import time
-from sklearn.metrics import accuracy_score, recall_score, precision_score, f1_score
 from pandas_profiling import ProfileReport
 from streamlit_pandas_profiling import st_profile_report
 
-from PIL import Image
 
 st.set_page_config(page_title="Hitters Salary Prediction", layout="wide")
 st.sidebar.title("Navigation")
